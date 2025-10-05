@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Data\\Software\\Steam\\steamapps\\common\\RimWorld\\Mods\\anima-genitals continued\\Source\\AnimaGenitalsPsy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7AF300-D7BD-4B82-8503-95ED8E52D030}|AnimaGenitals.csproj|c:\\data\\software\\steam\\steamapps\\common\\rimworld\\mods\\anima-genitals continued\\source\\animagenitalspsy\\animagenitalspsyfocusboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7AF300-D7BD-4B82-8503-95ED8E52D030}|AnimaGenitals.csproj|solutionrelative:animagenitalspsyfocusboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A82FFC-5645-41E2-B6DE-4E93FE91364F}|..\\AnimaBreasts\\AnimaBreasts.csproj|c:\\data\\software\\steam\\steamapps\\common\\rimworld\\mods\\anima-genitals continued\\source\\animabreasts\\compmilkableanima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F8B9AF-63F3-49BA-92D5-23592E126F01}|..\\BreastfeedPatch\\BreastfeedPatch.csproj|c:\\data\\software\\steam\\steamapps\\common\\rimworld\\mods\\anima-genitals continued\\source\\breastfeedpatch\\patch_breastfeedingmeditation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimaGenitalsPsyfocusBoost.cs",
+              "DocumentMoniker": "C:\\Data\\Software\\Steam\\steamapps\\common\\RimWorld\\Mods\\anima-genitals continued\\Source\\AnimaGenitalsPsy\\AnimaGenitalsPsyfocusBoost.cs",
+              "RelativeDocumentMoniker": "AnimaGenitalsPsyfocusBoost.cs",
+              "ToolTip": "C:\\Data\\Software\\Steam\\steamapps\\common\\RimWorld\\Mods\\anima-genitals continued\\Source\\AnimaGenitalsPsy\\AnimaGenitalsPsyfocusBoost.cs",
+              "RelativeToolTip": "AnimaGenitalsPsyfocusBoost.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGcAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T23:09:06.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Patch_BreastfeedingMeditation.cs",
+              "DocumentMoniker": "C:\\Data\\Software\\Steam\\steamapps\\common\\RimWorld\\Mods\\anima-genitals continued\\Source\\BreastfeedPatch\\Patch_BreastfeedingMeditation.cs",
+              "RelativeDocumentMoniker": "..\\BreastfeedPatch\\Patch_BreastfeedingMeditation.cs",
+              "ToolTip": "C:\\Data\\Software\\Steam\\steamapps\\common\\RimWorld\\Mods\\anima-genitals continued\\Source\\BreastfeedPatch\\Patch_BreastfeedingMeditation.cs",
+              "RelativeToolTip": "..\\BreastfeedPatch\\Patch_BreastfeedingMeditation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T04:38:48.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompMilkableAnima.cs",
+              "DocumentMoniker": "C:\\Data\\Software\\Steam\\steamapps\\common\\RimWorld\\Mods\\anima-genitals continued\\Source\\AnimaBreasts\\CompMilkableAnima.cs",
+              "RelativeDocumentMoniker": "..\\AnimaBreasts\\CompMilkableAnima.cs",
+              "ToolTip": "C:\\Data\\Software\\Steam\\steamapps\\common\\RimWorld\\Mods\\anima-genitals continued\\Source\\AnimaBreasts\\CompMilkableAnima.cs",
+              "RelativeToolTip": "..\\AnimaBreasts\\CompMilkableAnima.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T04:38:39.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

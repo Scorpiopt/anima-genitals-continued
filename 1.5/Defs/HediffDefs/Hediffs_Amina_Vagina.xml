@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartVaginaLotech">
+        <hediffClass>Hediff_Implant</hediffClass>
+        <defName>AnimaVagina</defName>
+        <label>anima vagina</label>
+        <labelNoun>an anima vagina</labelNoun>
+        <description>An anima vagina with psychic properties.</description>
+        <descriptionHyperlinks><ThingDef>AnimaVagina</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>AnimaVagina</spawnThingOnRemoved>
+        <defaultBodyPart>Genitals</defaultBodyPart>
+        <stages>
+            <li>
+                <statOffsets>
+				    <Fertility>2</Fertility>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Micro</label>
+                <minSeverity>0.01</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.06</offset>
+                    </li>
+                    <li>
+                        <capacity>RJW_Fertility</capacity>
+                        <offset>-0.25</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+				    <Fertility>2</Fertility>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Tight</label>
+                <minSeverity>0.20</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.06</offset>
+                    </li>
+                    <li>
+                        <capacity>RJW_Fertility</capacity>
+                        <offset>-0.25</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+					<Fertility>2</Fertility>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Average</label>
+                <minSeverity>0.40</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.06</offset>
+                    </li>
+                    <li>
+                        <capacity>RJW_Fertility</capacity>
+                        <offset>-0.25</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+					<Fertility>2</Fertility>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Accommodating</label>
+                <minSeverity>0.60</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.06</offset>
+                    </li>
+                    <li>
+                        <capacity>RJW_Fertility</capacity>
+                        <offset>-0.25</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+					<Fertility>2</Fertility>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Cavernous</label>
+                <minSeverity>0.80</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.07</offset>
+                    </li>
+                    <li>
+                        <capacity>RJW_Fertility</capacity>
+                        <offset>-0.25</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+					<Fertility>2</Fertility>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Abyssal</label>
+                <minSeverity>1.01</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.08</offset>
+                    </li>
+                    <li>
+                        <capacity>RJW_Fertility</capacity>
+                        <setMax>-0.25</setMax>
+                    </li>
+                </capMods>
+                <statOffsets>
+					<Fertility>2</Fertility>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+        </stages>
+        <partTags>
+			<li>Artificial</li>
+			<li>Solid</li>
+		</partTags>
+    </rjw.HediffDef_SexPart>
+
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallAnimaVagina</defName>
+        <label>install anima vagina</label>
+        <description>Install Anima Vagina.</description>
+        <descriptionHyperlinks>
+            <ThingDef>AnimaVagina</ThingDef>
+            <HediffDef>AnimaVagina</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Anima Vagina.</jobString>
+        <skillRequirements>
+            <Medicine>10</Medicine>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AnimaVagina</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>AnimaVagina</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Genitals</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>AnimaVagina</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveAnimaVagina</defName>
+        <label>remove anima vagina</label>
+        <description>Remove anima vagina.</description>
+        <jobString>Removing anima vagina.</jobString>
+        <removesHediff>AnimaVagina</removesHediff>
+    </RecipeDef>
+	
+</Defs>

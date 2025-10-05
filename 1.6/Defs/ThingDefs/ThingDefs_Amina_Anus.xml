@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="rjw_BodyPartAnimaBaseAnus">
+		<defName>AnimaAnus</defName>
+		<label>anima anus</label>
+		<description>A anus with the drawings of an psychic and anima-ic power that, helps at releasing neural heat and give psychic power.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AnimaAnus</HediffDef>
+		</descriptionHyperlinks>
+		<costList>
+		  <MedicineHerbal>10</MedicineHerbal>
+		  <AnimaFiber>50</AnimaFiber>
+		  <WoodLog>500</WoodLog>
+		</costList>
+        <!-- <thingCategories>
+            <li>BodyPartsBionic</li>
+        </thingCategories> -->
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>1.50</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

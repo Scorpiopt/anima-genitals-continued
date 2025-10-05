@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <HediffDef>
+        <defName>AnimaTicPsychicBond</defName>
+        <label>anima-tic psychic bond</label>
+        <description>A psychic bond formed through anima genitals during sexual intercourse.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-1</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0.0</minSeverity>
+                <label>low anima-tic psychic bond of lover</label>
+                <statOffsets>
+                    <PsychicSensitivity>0.10</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.2</minSeverity>
+                <label>mid anima-tic psychic bond of lover</label>
+                <statOffsets>
+                    <PsychicSensitivity>0.40</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.4</minSeverity>
+                <label>high anima-tic psychic bond of lover</label>
+                <statOffsets>
+                    <PsychicSensitivity>1.00</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.8</minSeverity>
+                <label>overwhelming anima-tic psychic bond of lover</label>
+                <statOffsets>
+                    <PsychicSensitivity>2.00</PsychicSensitivity>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+</Defs>

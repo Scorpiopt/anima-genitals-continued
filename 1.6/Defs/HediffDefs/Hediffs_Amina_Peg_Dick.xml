@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartPenisLotech">
+        <hediffClass>Hediff_Implant</hediffClass>
+        <defName>PegAnimaDick</defName>
+        <label>Peg anima dick</label>
+        <labelNoun>a peg anima dick</labelNoun>
+        <description>An installed peg anima dick.</description>
+        <descriptionHyperlinks>
+            <ThingDef>PegAnimaDick</ThingDef>
+        </descriptionHyperlinks>
+        <defaultLabelColor>(0, 0.6, 0.4)</defaultLabelColor>
+        <spawnThingOnRemoved>PegAnimaDick</spawnThingOnRemoved>
+		<defaultBodyPart>Genitals</defaultBodyPart>
+        <stages>
+			<li>
+				<label>Micro</label>
+				<minSeverity>0.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.01</offset>
+					</li>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
+                <statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+			</li>
+			<li>
+				<label>Small</label>
+				<minSeverity>0.20</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.03</offset>
+					</li>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
+                <statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+			</li>
+			<li>
+				<label>Average</label>
+				<minSeverity>0.40</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.06</offset>
+					</li>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
+                <statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+			</li>
+			<li>
+				<label>Large</label>
+				<minSeverity>0.60</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.09</offset>
+					</li>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<offset>0</offset>
+					</li>
+				</capMods>
+                <statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+			</li>
+			<li>
+				<label>Huge</label>
+				<minSeverity>0.80</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
+                <statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+			</li>
+			<li>
+				<label>Towering</label>
+				<minSeverity>1.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.10</offset>
+					</li>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
+                <statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+			</li>
+		</stages>
+        <addedPartProps>
+            <betterThanNatural>false</betterThanNatural>
+        </addedPartProps>
+        <genitalFamily>Penis</genitalFamily>
+		<genitalTags>
+			<li>CanPenetrate</li>
+		</genitalTags>
+		<partTags>
+			<li>Artificial</li>
+			<li>Solid</li>
+		</partTags>
+    </rjw.HediffDef_SexPart>
+
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallPegAnimaDick</defName>
+        <label>install peg anima dick</label>
+        <description>Install Peg Anima Dick.</description>
+        <descriptionHyperlinks>
+            <ThingDef>PegAnimaDick</ThingDef>
+            <HediffDef>PegAnimaDick</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Peg Anima Dick.</jobString>
+        <skillRequirements>
+            <Medicine>10</Medicine>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PegAnimaDick</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PegAnimaDick</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Genitals</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>PegAnimaDick</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemovePegAnimaDick</defName>
+        <label>remove peg anima dick</label>
+        <description>Remove peg anima dick.</description>
+        <jobString>Removing peg anima dick.</jobString>
+        <removesHediff>PegAnimaDick</removesHediff>
+    </RecipeDef>
+</Defs>

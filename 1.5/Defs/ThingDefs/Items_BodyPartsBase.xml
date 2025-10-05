@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Base definition for anima body parts -->
+	<ThingDef ParentName="rjw_BodyPartBase" Name="rjw_BodyPartAnimaBase" Abstract="True">
+		<techLevel>Neolithic</techLevel>
+		<tradeTags>
+			<li>RJW_BodyPartsArtificial</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimaBodypart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0</DeteriorationRate>
+			<WorkToMake>3500</WorkToMake>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedHealthItemAnimic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>AnimaImplants</researchPrerequisite>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	
+  <!-- Definitions for specific anima body parts -->
+    <ThingDef ParentName="rjw_BodyPartAnimaBase" Name="rjw_BodyPartAnimaBaseGenMale" Abstract="True">
+        <graphicData>
+            <texPath>Things/Item/Parts/genital_male_artificial</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <!-- <comps>
+            <li Class="rjw.CompProperties_ThingBodyPart" />
+        </comps> -->
+    </ThingDef>
+    <ThingDef ParentName="rjw_BodyPartAnimaBase" Name="rjw_BodyPartAnimaBaseGenFemale" Abstract="True">
+        <graphicData>
+            <texPath>Things/Item/Parts/genital_female_artificial</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <!-- <comps>
+            <li Class="rjw.CompProperties_ThingBodyPart" />
+        </comps> -->
+    </ThingDef>
+    <ThingDef ParentName="rjw_BodyPartAnimaBase" Name="rjw_BodyPartAnimaBaseAnus" Abstract="True">
+        <graphicData>
+            <texPath>Things/Item/Parts/anus_artificial</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <!-- <comps>
+            <li Class="rjw.CompProperties_ThingBodyPart" />
+        </comps> -->
+    </ThingDef>
+	    <ThingDef ParentName="rjw_BodyPartAnimaBase" Name="rjw_BodyPartAnimaBaseBreasts" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/breast_artificial</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+        <!-- <comps>
+            <li Class="rjw.CompProperties_ThingBodyPart" />
+        </comps> -->
+    </ThingDef>
+	
+</Defs>

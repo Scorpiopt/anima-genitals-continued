@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	    <rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartAnusLotech">
+        <hediffClass>Hediff_Implant</hediffClass>
+        <defName>AnimaAnus</defName>
+        <label>anima anus</label>
+        <labelNoun>an anima anus</labelNoun>
+        <description>An anima anus with psychic properties.</description>
+        <descriptionHyperlinks><ThingDef>AnimaAnus</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>AnimaAnus</spawnThingOnRemoved>
+        <defaultBodyPart>Anus</defaultBodyPart>
+        <stages>
+		    <li>
+                <statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Micro</label>
+                <minSeverity>0.01</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.06</offset>
+                    </li>
+                </capMods>
+				<statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Tight</label>
+                <minSeverity>0.20</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.06</offset>
+                    </li>
+                </capMods>
+				<statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Average</label>
+                <minSeverity>0.40</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.06</offset>
+                    </li>
+                </capMods>
+				<statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Accommodating</label>
+                <minSeverity>0.60</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.06</offset>
+                    </li>
+                </capMods>
+				<statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Cavernous</label>
+                <minSeverity>0.80</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.07</offset>
+                    </li>
+                </capMods>
+				<statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+            <li>
+                <label>Abyssal</label>
+                <minSeverity>1.01</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.08</offset>
+                    </li>
+                    <li>
+                        <capacity>RJW_Fertility</capacity>
+                        <setMax>-0.25</setMax>
+                    </li>
+                </capMods>
+				<statOffsets>
+                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
+                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                </statOffsets>
+            </li>
+        </stages>
+        <partTags>
+			<li>Artificial</li>
+			<li>Solid</li>
+		</partTags>
+    </rjw.HediffDef_SexPart>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallAnimaAnus</defName>
+		<label>install anima anus</label>
+		<description>Install Anima anus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaAnus</ThingDef>
+			<HediffDef>AnimaAnus</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Anima anus.</jobString>
+		<skillRequirements>
+		  <Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>AnimaAnus</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>AnimaAnus</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+		  <li>Anus</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AnimaAnus</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveAnimaAnus</defName>
+		<label>remove anima anus</label>
+		<description>Remove anima anus.</description>
+		<jobString>Removing anima anus.</jobString>
+		<removesHediff>AnimaAnus</removesHediff>
+	</RecipeDef>
+</Defs>

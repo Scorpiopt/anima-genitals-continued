@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loadFolders>
+  <v1.5>
+    <li>1.5</li>
+    <li IfModActive="rjw.menstruation">1.5/RJW Menstruation Cycle</li>
+  </v1.5>
+  <v1.6>
+    <li>1.6</li>
+    <li IfModActive="rjw.menstruation">1.6/RJW Menstruation Cycle</li>
+  </v1.6>
+</loadFolders>

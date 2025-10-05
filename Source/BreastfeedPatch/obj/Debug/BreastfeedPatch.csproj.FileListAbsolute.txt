@@ -1,0 +1,47 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\BreastfeedPatch.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\BreastfeedPatch.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\AnimaGenitals.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\Assembly-CSharp.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\Milk.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\RJW.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\RJW_Menstruation.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.CoreModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\NAudio.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\NVorbis.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.AudioModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\com.rlabrecque.steamworks.net.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\Unity.Burst.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\Unity.Mathematics.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\Unity.TextMeshPro.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\ISharpZipLib.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.UI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\0MultiplayerAPI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\Unity.Burst.Unsafe.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.TextCoreModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.UIModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\0Harmony.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\0Harmony.xml
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\bin\Debug\RJW_Menstruation.dll.config
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\obj\Debug\BreastfeedPatch.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\obj\Debug\BreastfeedPatch.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\obj\Debug\Breastfe.518544BC.Up2Date
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\obj\Debug\BreastfeedPatch.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Genitals 1.5 1.0.0\Source\BreastfeedPatch\obj\Debug\BreastfeedPatch.pdb
+C:\Data\Software\Steam\steamapps\common\RimWorld\Mods\anima-genitals continued\Source\BreastfeedPatch\obj\Debug\BreastfeedPatch.csproj.AssemblyReference.cache
+C:\Data\Software\Steam\steamapps\common\RimWorld\Mods\anima-genitals continued\Source\BreastfeedPatch\obj\Debug\BreastfeedPatch.csproj.CoreCompileInputs.cache
+C:\Data\Software\Steam\steamapps\common\RimWorld\Mods\anima-genitals continued\Source\BreastfeedPatch\obj\Debug\BreastfeedPatch.dll
+C:\Data\Software\Steam\steamapps\common\RimWorld\Mods\anima-genitals continued\1.6\Assemblies\BreastfeedPatch.dll
+C:\Data\Software\Steam\steamapps\common\RimWorld\Mods\anima-genitals continued\Source\BreastfeedPatch\obj\Debug\Breastfe.518544BC.Up2Date

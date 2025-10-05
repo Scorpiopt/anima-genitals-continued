@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ModMetaData>
+	<name>Anima Genitals Continued</name>
+	<author>DubiousBiasNil, Bunuffin, Scorpio</author>
+	<url></url>
+    <supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>scorpio.AnimaGenitals</packageId>
+	<description>This mod, commissioned by Bnuffin, requires the Royalty, Anima Gear, Anima Bodies, and RimJobWorld mods. It introduces a psyfocus boost for the receiving partner after sex. If both partners have Anima Genitals, they both receive an even larger boost.</description>
+        <modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		<li>
+			<packageId>xrushha.NOTDemo.AnimaGear</packageId>
+			<displayName>Anima Gear - Continued</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3545349562</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Seti.Victor.AnimaBodies</packageId>
+			<displayName>Anima Bionics - Forked</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2879835262</steamWorkshopUrl>
+		</li>
+		<li>
+		<packageId>rim.job.world</packageId>
+		<displayName>RimJobWorld</displayName>
+		<steamWorkshopUrl>https://www.loverslab.com/topic/110270-mod-rimjobworld</steamWorkshopUrl>
+		</li>
+		</modDependencies>
+	<loadAfter>
+		<li>ludeon.rimworld.royalty</li>
+		<li>ludeon.rimworld.ideology</li>
+		<li>ludeon.rimworld.biotech</li>
+		<li>ludeon.rimworld.anomaly</li>
+		<li>xrushha.NOTDemo.AnimaGear</li>
+		<li>Seti.Victor.AnimaBodies</li>
+		<li>rim.job.world</li>
+		<li>rjw.menstruation</li>
+	</loadAfter>
+ </ModMetaData>

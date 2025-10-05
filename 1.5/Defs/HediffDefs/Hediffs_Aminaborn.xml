@@ -1,0 +1,20 @@
+<Defs>
+    <HediffDef>
+        <defName>Animaborn</defName>
+        <label>animaborn</label>
+        <description>Pawns born with the anima vagina inherit psychic sensitivity and have increased work speed but are more vulnerable to heat.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <stages>
+		<li>
+        <statOffsets>
+			<PsychicSensitivity>1</PsychicSensitivity>
+			<MeditationFocusGain>0.5</MeditationFocusGain>
+			<PsychicEntropyRecoveryRate>0.5</PsychicEntropyRecoveryRate>
+			</statOffsets>
+			<statFactors>
+				<LifespanFactor>2</LifespanFactor>
+			</statFactors>
+		</li>
+    </stages>
+    </HediffDef>
+</Defs>
