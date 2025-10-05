@@ -105,6 +105,9 @@
                 </statOffsets>
             </li>
         </stages>
+		<genitalTags>
+			<li>CanBePenetrated</li>
+		</genitalTags>
         <partTags>
 			<li>Artificial</li>
 			<li>Solid</li>

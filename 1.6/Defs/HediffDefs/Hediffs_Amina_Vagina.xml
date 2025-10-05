@@ -145,6 +145,7 @@
 		</partTags>
 		<genitalTags>
 			<li>CanBePenetrated</li>
+			<li>CanBeFertilized</li>
 		</genitalTags>
 
     </rjw.HediffDef_SexPart>
