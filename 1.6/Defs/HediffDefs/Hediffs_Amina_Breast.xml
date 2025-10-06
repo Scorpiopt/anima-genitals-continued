@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartBreastLotech">
-	<hediffClass>Hediff_Implant</hediffClass>
+	<rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartBreastHitech">
 		<defName>AnimaBreasts</defName>
 		<label>anima breasts</label>
 		<description>A pair of anima breasts.</description>
 		<descriptionHyperlinks><ThingDef>AnimaBreasts</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AnimaBreasts</spawnThingOnRemoved>
+		<hediffClass>rjw.Hediff_ArtificialSexPart</hediffClass>
 		<fluid>Milk</fluid>
 		<defaultBodyPart>Chest</defaultBodyPart>
 		<stages>

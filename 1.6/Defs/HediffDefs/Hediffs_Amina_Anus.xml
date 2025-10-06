@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	    <rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartAnusLotech">
-        <hediffClass>Hediff_Implant</hediffClass>
+	    <rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartAnusHitech">
         <defName>AnimaAnus</defName>
         <label>anima anus</label>
         <labelNoun>an anima anus</labelNoun>
         <description>An anima anus with psychic properties.</description>
         <descriptionHyperlinks><ThingDef>AnimaAnus</ThingDef></descriptionHyperlinks>
+		<hediffClass>rjw.Hediff_ArtificialSexPart</hediffClass>
         <spawnThingOnRemoved>AnimaAnus</spawnThingOnRemoved>
         <defaultBodyPart>Anus</defaultBodyPart>
         <stages>
-		    <li>
-                <statOffsets>
-                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
-                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
-                </statOffsets>
-            </li>
             <li>
                 <label>Micro</label>
                 <minSeverity>0.01</minSeverity>
@@ -96,7 +90,7 @@
                     </li>
                     <li>
                         <capacity>RJW_Fertility</capacity>
-                        <setMax>-0.25</setMax>
+                         <offset>2</offset>
                     </li>
                 </capMods>
 				<statOffsets>

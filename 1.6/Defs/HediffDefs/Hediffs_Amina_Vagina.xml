@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartVaginaLotech">
-        <hediffClass>Hediff_Implant</hediffClass>
+    <rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartVaginaHitech">
         <defName>AnimaVagina</defName>
         <label>anima vagina</label>
         <labelNoun>an anima vagina</labelNoun>
@@ -9,6 +8,9 @@
         <descriptionHyperlinks><ThingDef>AnimaVagina</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>AnimaVagina</spawnThingOnRemoved>
         <defaultBodyPart>Genitals</defaultBodyPart>
+		<hediffClass>rjw.Hediff_ArtificialSexPart</hediffClass>
+		<fluid>GirlCum</fluid>
+		<produceFluidOnOrgasm>true</produceFluidOnOrgasm>
 		<isBad>false</isBad>
 		<keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
@@ -16,15 +18,7 @@
 		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<sizeProfile>DefaultVaginaSizes</sizeProfile>
         <stages>
-		   <li>
-                <statOffsets>
-				    <Fertility>2</Fertility>
-                    <ArmorRating_Heat>-0.25</ArmorRating_Heat>
-                    <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
-                </statOffsets>
-            </li>
-
-            <li>
+      <li>
                 <label>Micro</label>
                 <minSeverity>0.01</minSeverity>
                 <capMods>
@@ -38,7 +32,6 @@
                     </li>
                 </capMods>
                 <statOffsets>
-				    <Fertility>2</Fertility>
                     <ArmorRating_Heat>-0.25</ArmorRating_Heat>
                     <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
                 </statOffsets>
@@ -57,7 +50,6 @@
                     </li>
                 </capMods>
                 <statOffsets>
-					<Fertility>2</Fertility>
                     <ArmorRating_Heat>-0.25</ArmorRating_Heat>
                     <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
                 </statOffsets>
@@ -76,7 +68,6 @@
                     </li>
                 </capMods>
                 <statOffsets>
-					<Fertility>2</Fertility>
                     <ArmorRating_Heat>-0.25</ArmorRating_Heat>
                     <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
                 </statOffsets>
@@ -95,7 +86,6 @@
                     </li>
                 </capMods>
                 <statOffsets>
-					<Fertility>2</Fertility>
                     <ArmorRating_Heat>-0.25</ArmorRating_Heat>
                     <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
                 </statOffsets>
@@ -114,7 +104,6 @@
                     </li>
                 </capMods>
                 <statOffsets>
-					<Fertility>2</Fertility>
                     <ArmorRating_Heat>-0.25</ArmorRating_Heat>
                     <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
                 </statOffsets>
@@ -133,7 +122,6 @@
                     </li>
                 </capMods>
                 <statOffsets>
-					<Fertility>2</Fertility>
                     <ArmorRating_Heat>-0.25</ArmorRating_Heat>
                     <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
                 </statOffsets>

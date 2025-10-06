@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <rjw.HediffDef_SexPart ParentName="ArtificialPrivatePartPenisLotech">
-        <hediffClass>Hediff_Implant</hediffClass>
-        <defName>PegAnimaDick</defName>
+  <defName>PegAnimaDick</defName>
         <label>Peg anima dick</label>
         <labelNoun>a peg anima dick</labelNoun>
         <description>An installed peg anima dick.</description>
@@ -11,6 +10,7 @@
         </descriptionHyperlinks>
         <defaultLabelColor>(0, 0.6, 0.4)</defaultLabelColor>
         <spawnThingOnRemoved>PegAnimaDick</spawnThingOnRemoved>
+		<hediffClass>rjw.Hediff_ArtificialSexPart</hediffClass>
 		<defaultBodyPart>Genitals</defaultBodyPart>
         <stages>
 			<li>
